@@ -1,10 +1,46 @@
-h1{
-    color: red;
+body {
+  text-align: center;
 }
-.completed{
-    text-decoration: line-through;
-    color: gray;
+h1 {
+  color: #007bff;
 }
-.not{
-    text-decoration: underline;
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.not {
+  text-decoration: underline;
+}
+body > form > input[type="submit"]:nth-child(2) {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: 2px solid #007bff;
+  margin: 0 0.5rem;
+}
+
+[type="text"],
+button,
+input {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: gray;
+  margin-top: 1rem;
+}
+
+li,
+ul {
+  list-style: none;
+  text-decoration: none;
+  color: gray;
+  padding: 0;
 }

@@ -6,6 +6,7 @@ const UserSchema = new mongoose.Schema({
   email: { type: String, unique: true },
   password: String
 })
+// a constructor functino that spits out an object
 
 
 // Password hash middleware.
@@ -22,7 +23,7 @@ const UserSchema = new mongoose.Schema({
     })
   })
 })
-
+// this hashes the password and encrypts it
 
 // Helper method for validating user's password.
 
